@@ -1,0 +1,7 @@
+form label {
+    font-family: sans-serif;
+}
+
+form input[type="text"]{
+    width: 100px;
+}

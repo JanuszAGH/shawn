@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Wilder</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
+<p>Personal info</p>
 <form action="http://wilder.azurewebsites.net/echo" method="post">
     <fieldset>
         <legend>Name</legend>
         <label for="firstname">Your name: </label> <input type="text" name="firstname" id="firstname">
-        <input type="submit" value="send">
     </fieldset>
     <fieldset>
         <legend>Programming languages</legend>
         <input type="checkbox" id="java" name="java"> <label for="java"> Java</label><br/>
         <input type="checkbox" id="javascript" name="javascript" checked="true"><label for="javascript">
-            JavaScript</label><br/>
+        JavaScript</label><br/>
         <input type="checkbox" id="sql" name="sql"><label for="sql"> SQL</label><br/>
     </fieldset>
+    <input type="submit" value="send">
+
 </form>
 </body>
 </html>

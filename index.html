@@ -6,11 +6,18 @@
 </head>
 <body>
 
-<form action="http://wilder.azurewebsites.net/echo" method="get">
+<form action="http://wilder.azurewebsites.net/echo" method="post">
     <fieldset>
         <legend>Name</legend>
-        <label for="firstname">Your name: </label> <input type="text" id="firstname">
+        <label for="firstname">Your name: </label> <input type="text" name="firstname" id="firstname">
         <input type="submit" value="send">
+    </fieldset>
+    <fieldset>
+        <legend>Programming languages</legend>
+        <input type="checkbox" id="java" name="java"> <label for="java"> Java</label><br/>
+        <input type="checkbox" id="javascript" name="javascript" checked="true"><label for="javascript">
+            JavaScript</label><br/>
+        <input type="checkbox" id="sql" name="sql"><label for="sql"> SQL</label><br/>
     </fieldset>
 </form>
 </body>

@@ -1,0 +1,16 @@
+form label {
+    font-family: sans-serif;
+}
+
+form input[type="text"] {
+    width: 100px;
+}
+
+.centered-area {
+    width: 66%;
+    margin: auto;
+}
+
+.light-background {
+    background: beige;
+}
